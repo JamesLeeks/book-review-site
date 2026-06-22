@@ -1,12 +1,15 @@
-import './App.css'
-import { Book } from './pages/Book'
+import "./stylesheets/App.css";
+// import { Book } from './pages/Book'
+import { Search } from "./pages/Search";
 
 function App() {
-  return (
-    <>
-      <Book />
-    </>
-  )
+    return (
+        <>
+            <Search />
+            {/* <SearchTest /> */}
+            {/* <Book /> */}
+        </>
+    );
 }
 
-export default App
+export default App;
