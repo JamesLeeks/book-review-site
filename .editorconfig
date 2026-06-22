@@ -1,0 +1,2 @@
+[*.{tsx, css}]
+tab_width = 4
