@@ -38,6 +38,10 @@ body {
   justify-content: right;
 }
 
+form {
+  height: 100%;
+}
+
 .theme-button {
   aspect-ratio: 1 / 1;
   height: 100%;
@@ -59,10 +63,32 @@ body {
   height: 60%;
 }
 
+.search-icon {
+  background-image: url("../assets/banner/search.svg");
+  background-size: contain;
+  aspect-ratio: 1 / 1;
+  height: 60%;
+}
+
+.banner {
+  button {
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    background-color: #56e3b4;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button:hover {
+    background-color: #60ffca;
+    cursor: pointer;
+  }
+}
+
 .book-info-container {
   height: 92%;
-  color: #323232;
-  background-color: #ffffff;
   padding: 1vw;
 }
 
@@ -161,7 +187,9 @@ body {
   background-color: #444444;
 
   .cover-info,
-  .stats {
+  .stats,
+  .book-card-full,
+  .search-settings {
     border-color: #6a6a6a;
     background-color: #3d3d3d;
     box-shadow: 0.4em 0.4em 0.4em #373737;
@@ -228,6 +256,11 @@ body {
   /* border-right: 0.2vw solid rgb(154, 154, 154); */
   box-shadow: 0.2vw 0.2vw 0.3vw rgb(144, 144, 144);
   /* height: 100%; */
+
+  border-width: 0;
+  border-right-width: 0.15em;
+  border-style: solid;
+  border-color: #c0c0c0;
 }
 
 .settings-heading {
@@ -259,7 +292,12 @@ body {
   overflow-wrap: break-word;
   /* background-color: blue; */
   display: flex;
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: #c0c0c0;
   box-shadow: 0.2vw 0.2vw 0.3vw rgb(46, 46, 46);
+  text-decoration: none;
+  color: inherit;
 }
 
 .book-info {

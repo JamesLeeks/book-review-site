@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52.209835mm"
+   height="53.264175mm"
+   viewBox="0 0 52.209835 53.264175"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="search.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:lockguides="false"
+     inkscape:zoom="2.8548345"
+     inkscape:cx="150.79683"
+     inkscape:cy="178.46919"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-74.707644,-119.26869)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.508;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.88879,153.11616 15.92003,15.92004 z"
+       id="path1"
+       inkscape:label="handle" />
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:5.508;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2"
+       cx="93.451454"
+       cy="138.01456"
+       r="13.237864" />
+    <rect
+       style="display:none;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:5.50799;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="46.701847"
+       height="47.756187"
+       x="77.461639"
+       y="122.02269"
+       rx="0"
+       ry="0" />
+  </g>
+</svg>

@@ -2,6 +2,7 @@ import { useState } from "react";
 // import { BookCard } from "../components/BookCard";
 import { createExampleBooks } from "../exampleBooks";
 import { BookCardFull } from "../components/BookCardFull";
+import { Banner } from "../components/Banner";
 
 export function Search() {
     const [theme, setTheme] = useState<"dark" | "light">("dark");
@@ -18,19 +19,7 @@ export function Search() {
         <>
             {/* TODO: make banner into a component */}
             <div className={`page ${theme}`}>
-                <div className="banner">
-                    <div className="left-container"></div>
-                    <div className="right-container">
-                        <button
-                            className={`theme-button ${theme}`}
-                            onClick={() =>
-                                setTheme(theme === "dark" ? "light" : "dark")
-                            }
-                        >
-                            <div className="theme-icon"></div>
-                        </button>
-                    </div>
-                </div>
+                <Banner theme={theme} setTheme={setTheme} />
 
                 <div className={"search-container"}>
                     <div className="search-settings">

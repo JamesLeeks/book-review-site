@@ -2,6 +2,7 @@ import type { book } from "../exampleBooks";
 import placeHolderCover from "../assets/placeholder-cover.png";
 import { ScoresChart } from "./ScoresChart";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -31,7 +32,7 @@ function useWindowDimensions() {
 export function BookCardFull(props: book) {
     return (
         <>
-            <div className="book-card-full">
+            <Link to="book" className="book-card-full">
                 <img
                     className="card-cover"
                     src={placeHolderCover}
@@ -76,7 +77,7 @@ export function BookCardFull(props: book) {
                         />
                     </div>
                 </div>
-            </div>
+            </Link>
         </>
     );
 }
