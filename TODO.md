@@ -1,0 +1,1 @@
+add recent activity to home page - reviews and aquisitions
