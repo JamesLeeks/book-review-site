@@ -5,13 +5,18 @@ export function Banner(params: {
     const { theme, setTheme } = params;
     return (
         <div className="banner">
-            <div className="left-container"></div>
+            <div className="left-container">
+                <a href="http://localhost:5173" className="search-button">
+                    <div className="home-icon"></div>
+                </a>
+            </div>
             <div className="right-container">
-                <form action="">
-                    <button className="search-button">
-                        <div className="search-icon"></div>
-                    </button>
-                </form>
+                <a
+                    href="http://localhost:5173/search"
+                    className="search-button"
+                >
+                    <div className="search-icon"></div>
+                </a>
                 <button
                     className={`theme-button ${theme}`}
                     onClick={() =>

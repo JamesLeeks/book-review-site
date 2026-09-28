@@ -29,6 +29,10 @@ body {
 
 .left-container {
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
 }
 .right-container {
   height: 100%;
@@ -38,10 +42,11 @@ body {
   justify-content: right;
 }
 
-form {
+/* form {
   height: 100%;
-}
+} */
 
+.search-button,
 .theme-button {
   aspect-ratio: 1 / 1;
   height: 100%;
@@ -52,6 +57,7 @@ form {
   align-items: center;
   justify-content: center;
 }
+.search-button:hover,
 .theme-button:hover {
   background-color: #60ffca;
   cursor: pointer;
@@ -63,6 +69,12 @@ form {
   height: 60%;
 }
 
+.home-icon {
+  background-image: url("../assets/banner/home.svg");
+  background-size: contain;
+  aspect-ratio: 1 / 1;
+  height: 60%;
+}
 .search-icon {
   background-image: url("../assets/banner/search.svg");
   background-size: contain;
@@ -70,7 +82,7 @@ form {
   height: 60%;
 }
 
-.banner {
+/* .banner {
   button {
     aspect-ratio: 1 / 1;
     height: 100%;
@@ -85,7 +97,7 @@ form {
     background-color: #60ffca;
     cursor: pointer;
   }
-}
+} */
 
 .book-info-container {
   height: 92%;
