@@ -3,6 +3,7 @@ import { Book } from "./pages/Book";
 import { Search } from "./pages/Search";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
+import { CheckDigitTest } from "./pages/CheckDigitTest";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/search" element={<Search />}></Route>
                 <Route path="/book" element={<Book />}></Route>
+                <Route path="/check-digit" element={<CheckDigitTest />}></Route>
             </Routes>
         </BrowserRouter>
     );
